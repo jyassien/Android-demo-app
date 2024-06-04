@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Demosec1"
+        parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+<!--         Primary brand color.-->
+        <item name="colorPrimary">@color/teal_200</item>
+        <item name="colorPrimaryVariant">@color/teal_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/purple_200</item>
+        <item name="colorSecondaryVariant">@color/purple_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+<!--         Customize your theme here.-->
+<!--        <color name="colorBlue">#0000FF</color>-->
+<!--        <color name="colorBlue50PercentTransparent">#770000FF</color>-->
+    </style>
+    <style name="Theme.Demosec1" parent="Base.Theme.Demosec1" />
+
+    <style name="text_input_greeting" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_margin">38dp</item>
+    </style>
+    <style name="button_greeting">
+        <item name="android:layout_margin">28dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="greeting_display" parent="@style/TextAppearance.MaterialComponents.Body1">
+        <item name="android:layout_margin">28dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+    <style name="screen_layout_margin">
+        <item name="android:layout_margin">72dp</item>
+    </style>
+
+</resources>
